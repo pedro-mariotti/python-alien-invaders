@@ -1,5 +1,6 @@
 import pygame
 from bullet import Bullet
+import sys
 
 class GameEventHandler:
     def __init__(self, ship, bullet_manager) -> None:
